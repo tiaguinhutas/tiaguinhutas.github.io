@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifólio</title>
+        <!--font importada do site fonts.google-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+
+    <body>
+        <!-- header = cabeçalho, caixa1-->
+        <header>
+            <!-- abro uma div para atribuir um espaço nela no css mais facilmente (class forma melhor de setar no css)-->
+            <div class="container">
+            <!-- DIV = CAIXA FOTO DE PERFIL -->
+                <div class="linha">
+                    <div class="coluna coluna-esquerda">
+                        <figure>
+                            <img src="./assents/eu.jpg" alt="Tiago Alexandre">
+                            <!--figcaption - texto alternativo - ajuda pessoas com deficiencia visual-->
+                            <!--adiciono uma class para esconder melhor no css depois o nome da imagem-->
+                            <figcaption class="hidden">Tiago Alexandre</figcaption>
+                        </figure>
+                    </div>
+
+                    <!-- CAIXA DE INFORMAÇÕES PESSOAIS -->
+                    <div class="coluna coluna-direita"> 
+                        <h1>Tiago Alexandre da Silva</h1>
+                        <p>Analista Administrativo</p>
+
+                        <ul>
+                            <li>
+                                <!--tag de link-->
+                                <a href="mailto:tiaguinhu_tas@hotmail.com">tiaguinhu_tas@hotmail.com</a>
+                            </li>
+                            <li>
+                                <a href="tel:551734623798">(17) 3462-3798</a>
+                            </li>
+                            <li>
+                                <a href="#">Rua Pará, 243, Independente - Fernandópolis/SP</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>   
+        
+        <!-- main = caixa que define o conteuno mais importante-->
+        <main>
+            <div class="container">
+                <div class="linha">
+                    <!--conteudo lado esquerdo-->
+                    <div class=" coluna coluna-esquerda">
+                        <section>
+                            <h2>Perfil Profissional</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque mollitia, eveniet impedit maxime pariatur alias quidem quo placeat rem incidunt laborum cupiditate maiores eius necessitatibus perspiciatis minima ratione. Incidunt, minima!</p>
+                        </section>
+
+                        <section>
+                            <h2>Especialidade</h2>
+                            <ul>
+                                <li>HTML 5</li>
+                                <li>CSS 3</li>
+                                <li>Java Script</li>
+                                <li>React Js</li>
+                            </ul>
+                        </section>
+                        
+                        <section>
+                            <h2>Cursos</h2>
+                            <ul>
+                                <li>HTML 5 - FEF</li>
+                                <li>CSS 3 - FEF</li>
+                                <li>Java Script - FEF</li>
+                                <li>React Js - FEF</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+            <!--conteudo lado direito-->
+            <div class="container">
+                <div class="linha">
+                    <div class=" coluna coluna-direita">
+                        <section>
+                            <h2>Experiências</h2>
+                            <ul>
+                                <li>
+                                    <h3>Analista Administrativo</h3>
+                                    <!--Strong é usado para intensificar o uso do texto , usado antigamente <b> não se usa mais caiu em desuso-->
+                                    <strong>Nome da empresa Ciplafe Moveis de Ano - Tempo Integral</strong>
+                                    <p>Periodo do empregador. de 2020 - o momento Localidade Fernandópolis/SP</p>                           
+                                </li>
+                                <li>
+                                    <h3>Analista Administrativo</h3>
+                                    <strong>Nome da empresa Ciplafe Moveis de Ano - Tempo Integral</strong>
+                                    <p>Periodo do empregador. de 2020 - o momento Localidade Fernandópolis/SP</p>                           
+                                </li>
+                            </ul>
+                        </section>
+                        <section>
+                            <h2>Formação</h2>
+                            <ul>
+                                <li>
+                                    <h3>Analista Administrativo<strong>2015-2016</strong></h3>
+                                    <p>Fundação Educacional de Fernandópolis</p>
+                                </li>
+                                <li>
+                                    <h3>Analista Administrativo<strong>2017-2018</strong></h3>
+                                    <p>Fundação Educacional de Fernandópolis</p>
+                                </li>
+                                <li>
+                                    <h3>Analista Administrativo<strong>2019-2021</strong></h3>
+                                    <p>Fundação Educacional de Fernandópolis</p>
+                                </li>
+                            </ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!--rodapé da pagina-->
+        <footer>
+            <div class="container">
+                <nav>
+                    <ul class="info-contato">
+                        <li>
+                            <!--tag de link-->
+                            <p>Email: <a href="mailto:tiaguinhu_tas@hotmail.com">tiaguinhu_tas@hotmail.com</a></p>
+                        </li>
+                        <li>                           
+                            <p>Telefone: <a href="tel:551734623798">(17) 3462-3798</a></p>
+                        </li>
+                        <li>
+                            <p>Endereço: <a href="#">Rua Pará, 243, Independente - Fernandópolis/SP</a></p>
+                        </li>
+                    </ul>
+                </nav>                
+
+                <nav>
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="#">
+                                <img src="./assents/linkedin.png" alt="Linkedin">
+                                <p>Linkedin</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assents/github.png" alt="Githud">
+                                <p>Github</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assents/instragram.png" alt="Instagram">
+                                <p>Instagram</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assents/youtube.png" alt="Youtube">
+                                <p>Youtube</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assents/facebook.png" alt="Facebook">
+                                <p>Facebook</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </footer>
+        
+    </body>
+</html>
